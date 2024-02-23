@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 2em;
+    
+}
+
+body *{
+    /* border: 1px solid black; */
+    background-color: #b5b1b1;
+    padding: 2em;
+}
+
+header{
+    flex: 1 0 100%;
+    height: 150px;
+}
+
+footer{
+    flex: 1 0 100%;
+    height: 150px;
+}
+
+main{
+    flex: 1 0 70%;
+    height: 300px;
+}
+
+aside{
+    flex: 1 1 auto;
+}

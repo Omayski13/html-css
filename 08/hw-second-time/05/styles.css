@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(86, 86, 209);
+
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(225, 225, 165);
+    
+    padding: 25px;
+}
+div{
+    margin-bottom: 30px;
+    border: 2px solid #fff;
+    position: relative;
+    top: 20px;
+}
+
+span{
+    width: 120px;
+    display: block;
+    text-align: center;
+    padding: 3px 5px;
+    margin: 0 auto;
+    top: -11px;
+}

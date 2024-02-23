@@ -1,0 +1,12 @@
+@media (max-width: 600px){
+
+    .parallax-window{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2.tm-section-title{
+        text-align: center;
+    }
+}

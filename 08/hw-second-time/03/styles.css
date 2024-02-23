@@ -1,0 +1,27 @@
+
+
+section{
+    border: 5px solid lightgray;
+    padding: 1em;
+    width: 370px;
+}
+
+img{
+    width: 370px;
+}
+
+button{
+    border-radius: 5px;
+    width: 250px;
+    /* height: 30px; */
+    border: 2px solid black;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}

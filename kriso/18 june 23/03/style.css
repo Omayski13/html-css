@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap.);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+html{
+    font-family: Inter;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    font-size: 1.5em;
+    margin: 0 4em;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 1em;
+}
+
+a.sing-up,
+a.log-in{
+    text-decoration: none;
+    color: black;
+}
+
+a.sing-up{
+    background-color: #ADE2DF;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+
+section.first{
+    background: #ADE2DF ;
+    text-align: center;;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10em;
+}
+
+section.first h2{
+    font-size: 5em;
+    padding: 1.5em 1.5em 0 1.5em;
+}
+
+section.first p{
+    font-size: 2em;
+    padding: 1.5em;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+a.ios,
+a.android{
+    background: black;
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    border-radius: 0.3em;
+    margin-bottom: 3em;
+}
+
+i{
+    padding-right: 0.3em;
+}
+
+section.second{
+    display: flex;
+    justify-content: center;
+    margin: 10em;
+}
+
+
+
+section.second div{
+    padding: 1.5em;
+    border-left: 1px solid #DBDBDB;
+    width: 400px;
+}
+
+section.second h3{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 0.5em; 
+}
+
+section.second p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+section.third{
+    background:#ADE2DF ;
+    display: flex;
+    justify-content: center;
+}
+
+section.third .text{
+    padding: 5em 2.5em;
+    width: 400px;
+}
+
+section.third h3{
+    font-size: 2.5em;
+    padding-bottom: 1em;
+}
+
+section.third p.bold{
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+section.third .image{
+    border: 3px dashed #98B8B6;
+    margin-right: 5em;
+    padding: 0 4em;
+}
+
+section.forth{
+    background: #F3F5FA;
+    display: flex;
+    flex-direction: column;
+}
+
+.forth-head{
+    padding: 3em;
+    text-align: center;
+}
+
+.forth-head p{
+    display: inline;
+    padding: 0.5em;
+    background: #ADE2DF;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-radius: 0.5em;
+}
+
+.forth-head h3{
+    padding: 1em;
+    font-size: 3em;
+}
+
+.forth-description{
+    display: flex;
+    border: 1px solid #98B8B6 ;
+    border-radius: 1em;
+
+
+}
+
+
+.forth-description .description-head{
+    text-align: center;
+}
+
+.forth-description .standart,
+.forth-description .premium,
+.forth-description .plus{
+    padding: 2.5em;
+    border-right: 1px solid #98B8B6;
+    margin: 2em 0;
+}
+
+
+
+p.description-head{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.2em;
+}
+
+p.subtitle{
+    font-size: 1.2em;
+   
+}
+
+span{
+    font-size: 3em;
+    padding-right: 0.2em;
+}
+
+h4{
+    border-bottom: 1px solid #98B8B6;
+    padding-bottom: 1em;
+}
+
+.checks{
+    padding: 2em 0;
+}
+
+.checks p{
+    padding: 0.5em;
+}
+
+
+a.description-button{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    background: #ADE2DF ;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 0.7em;
+}
+
+.expand{
+    width: 55%;
+    background: #ADE2DF;
+    padding: 2.5em;
+}
+
+
+.expand h4{
+    font-size: 1.5em;
+    border: none;
+    font-weight: 500;
+}
+
+a.expand-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 8.5em;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 1.5em;
+    border-radius: 0.7em;
+}
+
+section.fifth{
+    background: #ADE2DF;
+    text-align: center;
+    padding: 5em 40em;
+
+}
+
+
+section.fifth h2{
+    font-size: 5em;
+
+}
+
+section.fifth p{
+    font-size: 1.5em;
+}
+
+section.fifth .buttons{
+    color: red;
+    padding: 4em ;
+    margin: 0 2em;
+
+}
+
+section.fifth a.ios,
+section.fifth a.android{
+    margin: 0.5em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.socials{
+    
+}
+   

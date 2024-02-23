@@ -1,0 +1,12 @@
+img{
+    float: left;
+    border-right: 2px solid lightgray;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+p{
+    padding: 25px;
+    text-align: justify;
+    line-height: 30px;
+}

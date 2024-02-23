@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.header-title{
+        padding: 1em 0;
+    }
+
+    section.header-title h1{
+        font-size: 35px;
+    }
+
+    section.header-title p{
+        font-size: 15px;
+    }
+
+    section.choose-us{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.choose-us p{
+        padding-bottom: 1em;
+    }
+
+    section.team-description ul{
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+
+    }
+
+    section.team-description ul li img{
+        width: 100%;
+        height: auto;
+    }
+}
+

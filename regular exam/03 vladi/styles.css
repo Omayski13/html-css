@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+html{
+    font-family: Karla;
+}
+
+section.first{
+    background-image: url(images/poster.jpg);
+    background-size:cover;
+    color: white;
+    box-shadow: inset 100px 100px 300px black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+footer img,
+header img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer .image-container,
+header .image-container{
+    width: 5%;
+}
+
+ul li{
+    display: inline-block;
+
+    padding: 1em 2em;
+}
+
+h1{
+    font-family: Cormorant Infant;
+    font-size: 5em;
+    padding-bottom: 3em;
+}
+
+section.first .text{
+
+    text-align: center;
+    padding: 10em;
+}
+
+
+/* !!!!!!
+!!!! */
+section.first p{
+  
+    
+}
+
+
+section.second{
+    background: #F8F0E9;
+    padding: 2em 16em;
+}
+
+section.second h2{
+    font-family: Cormorant Infant;
+    font-size: 4em;
+    padding: 1em 0;
+    
+}
+
+
+section.third{
+    background-color: #E14747;
+    color: white;
+    text-align: center;
+    padding: 4em 38em;
+    font-size: 1em;
+}
+
+section.third p.title{
+    padding-bottom: 3em;
+    font-weight: bold;
+}
+
+section.third p.subtitle{
+    font-weight: 100;
+}
+
+section.forth{
+    background: #F8F0E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em 32em;
+}
+
+section.forth img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section.forth .title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 4em;
+    font-family: Cormorant Infant ;
+    padding: 1em 0;
+}
+
+
+/* !!!!!!!!
+!!!! */
+section.forth .description{
+    padding-bottom: 2em;
+   
+}
+
+.first-button{
+    padding-top: 2em ;
+    padding-bottom: 4em;
+
+
+}
+
+a.read-more,
+a.read-all{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0.3em;
+}
+
+a.read-more{
+ 
+  
+}
+
+
+section.fifth{
+    text-align: center;
+    background-color: #E14747;
+    color: white;
+    padding: 2em 26em;
+}
+
+section.fifth h3{
+    font-family: Cormorant Infant;
+    font-size: 3em;
+    padding: 2em;
+}
+
+section.fifth p{
+    padding-top: 1em;
+    padding-bottom: 4em;
+    font-size: 0.8em;
+}
+
+a.find{
+    color: black;
+    padding: 1em;
+    background: #FAD87A;
+    border-radius: 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+footer{
+    background: #352B2A;
+    color: white;
+    padding: 3em 5em;
+    font-size: 0.8em;
+    
+}
+
+footer .image-container{
+    padding-bottom: 3em;
+}
+
+footer p{
+    width: 380px;
+    line-height: 1.5em;
+}
+
+footer p.all-rights{
+    padding-top: 1.5em;
+    color: #766968;
+}

@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    gap: 2em;
+    margin: 2em auto;
+
+}
+
+h2{
+    padding-bottom: 0.3em;
+}

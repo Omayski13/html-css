@@ -1,0 +1,16 @@
+body{
+    background-color: grey;
+}
+
+section{
+    width: 300px;
+    background-color: rgb(62, 62, 136);
+    color: white;
+    padding: 1em;
+    border: 1px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}

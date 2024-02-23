@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box; 
+}
+
+body{
+    font-family: "PT Serif", sans-serif;
+    border: 3px solid black;
+}
+
+.hero-head{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    height: 750px;
+}
+
+.head-logo{
+    width: 50px;
+
+}
+
+.head-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul li{
+    display: inline;
+    padding: 2em;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+}
+
+section.first article{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 650px;
+}
+
+h2{
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+section.first p{
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.25em;
+    font-weight: 50;
+    padding: 1em 0;
+    line-height: 1.5em;
+}
+
+section.second{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #CCCCCC;
+    padding: 10em;
+    gap: 3em;
+}
+
+section.second h3{
+    color: black;
+    font-size: 3em;
+    font-weight: 500;
+    padding: 0.5em 0;
+}
+
+section.second p{
+    line-height: 1.5em;
+    font-family: "PT Sans", sans-serif;
+    padding-bottom: 2em;
+}
+
+a.second-button{
+    background-color: white;
+    border: 3px solid #B0825C;
+    padding: 0.5em 1em;
+    color: #B0825C;
+    text-decoration: none;
+}
+
+
+section.third{
+    padding: 3em 10em;
+}
+
+section.third h3,
+section.third p{
+    text-align: center;
+}
+
+
+section.third h3{
+    color: #B0825C;
+    font-size: 2em;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+section.third img{
+    display: block;
+    width: 5%;
+    height: auto;
+    background-color: #DDDDDD;
+    padding: 1.5em;
+    border-radius: 10em;
+    margin: 5em;
+}
+
+
+section.third p{
+    font-family: "PT Sans", sans-serif;
+    padding: 1em 0;
+
+}
+
+section.forth{
+    background: black;
+    color: white;
+    border-bottom:  solid #CCCCCC;
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 3em 10em 3em;
+
+}
+
+section.forth h4{
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-bottom: 1.5em ;
+}
+
+section.forth p{
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    line-height: 3em;
+    font-size: 0.8em;
+    color: #B3A6A8;
+}
+
+footer{
+    padding: 2em 2em 2em 8em ;
+    background: black;
+    color: #B3A6A8;
+   
+}
+
+
+/* 
+header{
+    background-image: url(images/background.jpg);
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+/* .head-logo{
+    width: 300px;
+
+}
+
+.head-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.head-left,
+.head-right{
+    padding: 3em;
+} */
